@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <title>AdminDesigns - A Responsive HTML5 Admin UI Framework</title>
+  <meta name="keywords" content="HTML5 Bootstrap 3 Admin Template UI Theme" />
+  <meta name="description" content="AdminDesigns - A Responsive HTML5 Admin UI Framework">
+  <meta name="author" content="AdminDesigns">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font CSS (Via CDN) -->
+  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme2.css">
+  <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme3.css">
+
+  <!-- Admin Forms CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/admin-tools/admin-forms/css/admin-forms.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+   <![endif]-->
+  <style>
+    .errormessage{
+      width: 100%;
+      text-align: center;
+      height: 20px;
+      display:block;
+      margin-top: 10px;
+      color: red;
+      font-size: 16px;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body class="external-page external-alt sb-l-c sb-r-c">
+
+  <!-- Start: Main -->
+  <div id="main" class="animated fadeIn">
+
+    <!-- Start: Content-Wrapper -->
+    <section id="content_wrapper">
+
+      <!-- Begin: Content -->
+      <section id="content">
+
+        <div class="admin-form theme-primary mw600" style="margin-top: 3%;" id="register">
+
+          <!-- Registration Panel/Form -->
+          <div class="panel">
+
+            <form method="post" action="/" id="contact">
+              <div class="panel-body bg-light p25 pb15">
+                <div class="section row">
+                  <div class="col-md-12">
+                    <label for="username" class="field-label text-muted fs18 mb10">用户名</label>
+                    <label for="name" class="field prepend-icon">
+                      <input type="text" name="username" id="username" class="gui-input" placeholder="用户名">
+                      <label for="firstname" class="field-icon">
+                        <i class="fa fa-user"></i>
+                      </label>
+                    </label>
+                    <span class="errormessage usernameerr">*用户名必须为6~16，由字符数字组成*</span>
+                  </div>
+                  <!-- end section -->
+                </div>
+                <!-- end .section row section -->
+                <div class="section">
+                  <label for="username" class="field-label text-muted fs18 mb10">手机号</label>
+                  <label for="tel" class="field prepend-icon">
+                    <input type="text" name="tel" id="tel" class="gui-input" placeholder="手机号">
+                    <label for="tel" class="field-icon">
+                      <i class="fa fa-mobile"></i>
+                    </label>
+                  </label>
+                  <span class="errormessage telerr">*手机号格式错误*</span>
+                </div>
+                <!-- end section -->
+                <!-- end section -->
+
+
+                <hr class="alt short">
+
+                <div class="section">
+                  <label for="username" class="field-label text-muted fs18 mb10">密码</label>
+                  <label for="password" class="field prepend-icon">
+                    <input type="password" name="password" id="password" class="gui-input" placeholder="填写密码">
+                    <label for="password" class="field-icon">
+                      <i class="fa fa-unlock-alt"></i>
+                    </label>
+                  </label>
+                  <span class="errormessage passworderr">*密码必须为6~16，由字符数字组成*</span>
+                </div>
+                <!-- end section -->
+
+                <div class="section">
+                  <label for="username" class="field-label text-muted fs18 mb10">再次输入</label>
+                  <label for="confirmPassword" class="field prepend-icon">
+                    <input type="password" name="confirmPassword" id="confirmPassword" class="gui-input" placeholder="重复你的密码">
+                    <label for="confirmPassword" class="field-icon">
+                      <i class="fa fa-lock"></i>
+                    </label>
+                  </label>
+                  <span class="errormessage err2">*两次输入的密码不一致*</span>
+                </div>
+                <!-- end section -->
+                <span class="errormessage err1">*表单项不能为空*</span><br>
+              </div>
+
+              <div class="panel-footer clearfix">
+                <button id="reigster" class="button btn-primary mr10 pull-right">注册</button>
+
+                <label class="option ib mt10">
+                  <input type="checkbox" name="terms">
+                  <span class="checkbox mr10"></span>我同意
+                  <a href="#" class="theme-link"> 协议规定 </a>
+                </label>
+
+              </div>
+
+            </form>
+          </div>
+
+          <!--  Divider -->
+          <hr class="alt mt20 mb15 mh50">
+
+
+          <!-- Registration Links -->
+          <div class="login-links">
+            <p>
+              <a href="pages_forgotpw(alt).html" class="active hidden" title="Sign In">忘记密码</a>
+            </p>
+            <p>已经注册过了？
+              <a href="login.html" class="active" title="Sign In">在这里登陆</a>
+            </p>
+          </div>
+
+
+        </div>
+
+      </section>
+      <!-- End: Content -->
+
+    </section>
+    <!-- End: Content-Wrapper -->
+
+  </div>
+  <!-- End: Main -->
+
+
+  <!-- BEGIN: PAGE SCRIPTS -->
+
+  <!-- jQuery -->
+  <script src="vendor/jquery/jquery-1.11.1.min.js"></script>
+  <script src="vendor/jquery/jquery_ui/jquery-ui.min.js"></script>
+
+  <!-- Theme Javascript -->
+  <script src="assets/js/utility/utility.js"></script>
+  <script src="assets/js/demo/demo.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- Page Javascript -->
+  <script type="text/javascript">
+  jQuery(document).ready(function() {
+
+    "use strict";
+
+    // Init Theme Core      
+    Core.init();
+
+    // Init Demo JS
+    Demo.init();
+
+  });
+  $('.errormessage').hide();
+  $('#username').blur(function () {
+      var usernameREGEXP = /^[a-zA-Z0-9_]{5,16}$/; //用户名只能为大小写字母，数字且在6——17之间
+      var username = $('#username').val();
+      if(!usernameREGEXP.test(username)){
+          $('.usernameerr').show();
+      }
+      $(this).focus(function () {
+          $('.errormessage').hide();
+      })
+  })
+  $('#password').blur(function () {
+      var passwordREGEXP = /^[a-zA-Z]\w{5,17}$/;  //密码必须为数字，字符，下划线，且在6——18位之间
+      var password = $('#password').val();
+      if(!passwordREGEXP.test(password)){
+          $('.passworderr').show();
+      }
+      $(this).focus(function () {
+          $('.errormessage').hide();
+      })
+  })
+  $('#tel').blur(function () {
+      var telREGEXP = /^1(3|4|5|7|8)\d{9}$/; //表示以1开头，第二位可能是3/4/5/7/8等的任意一个，在加上后面的\d表示数字[0-9]的9位，总共加起来11位结束。
+      var tel = $('#tel').val()
+      if(!telREGEXP.test(tel)){
+          $('.telerr').show();
+      }
+      $(this).focus(function () {
+          $('.errormessage').hide();
+      })
+  })
+  $('#reigster').click(function () {
+      var url = "http://localhost:2900/reigster"
+      var usernameREGEXP = /^[a-zA-Z0-9_]{5,16}$/; //用户名只能为大小写字母，数字且在6——17之间
+      var passwordREGEXP = /^[a-zA-Z]\w{5,17}$/;  //密码必须为数字，字符，下划线，且在6——18位之间
+      var telREGEXP = /^1(3|4|5|7|8)\d{9}$/; //表示以1开头，第二位可能是3/4/5/7/8等的任意一个，在加上后面的\d表示数字[0-9]的9位，总共加起来11位结束。
+      var username = $('#username').val();
+      var password = $('#password').val();
+      var tel = $('#tel').val()
+      var conformpassword = $('#confirmPassword').val();
+      if(username&&password&&tel&&conformpassword){
+          if(usernameREGEXP.test(username)&&passwordREGEXP.test(password)&&telREGEXP(tel)){
+              if(password != conformpassword)
+              {
+                  $('span.err2').show();
+              }else{
+                  $.getJSON(url,{"username":username,"password":password,"tel":tel},function (data) {
+                      if(data)
+                      {
+                          location.assign("./login.html");
+                      }
+                  })
+              }
+          }else{
+              alert("请检查表单填写内容");
+          }
+      }else{
+          $('span.err1').show();
+      }
+  })
+  </script>
+
+  <!-- END: PAGE SCRIPTS -->
+
+</body>
+
+</html>

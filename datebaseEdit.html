@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <title>AdminDesigns - A Responsive HTML5 Admin UI Framework</title>
+    <meta name="keywords" content="HTML5 Bootstrap 3 Admin Template UI Theme" />
+    <meta name="description" content="AdminDesigns - A Responsive HTML5 Admin UI Framework">
+    <meta name="author" content="AdminDesigns">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font CSS (Via CDN) -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
+
+    <!-- Datatables CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/plugins/datatables/media/css/dataTables.bootstrap.css">
+
+    <!-- Datatables Editor CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/plugins/datatables/media/css/dataTables.plugins.css">
+
+    <!-- X-editable CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/plugins/xeditable/css/bootstrap-editable.css">
+    <link rel="stylesheet" type="text/css" href="vendor/plugins/xeditable/inputs/address/address.css">
+    <link rel="stylesheet" type="text/css" href="vendor/plugins/xeditable/inputs/typeaheadjs/lib/typeahead.js-bootstrap.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme2.css">
+    <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme3.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="datatables-editor-page" data-spy="scroll" data-target="#nav-spy" data-offset="300">
+
+<!-- Start: Main -->
+<div id="main">
+
+    <!-- Start: Header -->
+    <header class="navbar navbar-fixed-top">
+        <div class="navbar-branding">
+            <a class="navbar-brand" href="index.html">
+                <b>Admin</b>manage
+            </a>
+            <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
+        </div>
+        <ul class="nav navbar-nav navbar-left">
+            <li>
+                <a class="sidebar-menu-toggle" href="#">
+                    <span class="ad ad-ruby fs18"></span>
+                </a>
+            </li>
+            <li>
+                <a class="topbar-menu-toggle" href="#">
+                    <span class="ad ad-wand fs16"></span>
+                </a>
+            </li>
+            <li class="hidden-xs">
+                <a class="request-fullscreen toggle-active" href="#">
+                    <span class="ad ad-screen-full fs18"></span>
+                </a>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left navbar-search" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search..." value="Search...">
+            </div>
+        </form>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span class="ad ad-radio-tower fs18"></span>
+                </a>
+                <ul class="dropdown-menu media-list w350 animated animated-shorter fadeIn" role="menu">
+                    <li class="dropdown-header">
+                        <span class="dropdown-title"> Notifications</span>
+                        <span class="label label-warning">12</span>
+                    </li>
+                    <li class="media">
+                        <a class="media-left" href="#"> <img src="assets/img/avatars/5.jpg" class="mw40" alt="avatar"> </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Article
+                                <small class="text-muted">- 08/16/22</small>
+                            </h5> Last Updated 36 days ago by
+                            <a class="text-system" href="#"> Max </a>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="media-left" href="#"> <img src="assets/img/avatars/2.jpg" class="mw40" alt="avatar"> </a>
+                        <div class="media-body">
+                            <h5 class="media-heading mv5">Article
+                                <small> - 08/16/22</small>
+                            </h5>
+                            Last Updated 36 days ago by
+                            <a class="text-system" href="#"> Max </a>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="media-left" href="#"> <img src="assets/img/avatars/3.jpg" class="mw40" alt="avatar"> </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Article
+                                <small class="text-muted">- 08/16/22</small>
+                            </h5> Last Updated 36 days ago by
+                            <a class="text-system" href="#"> Max </a>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <a class="media-left" href="#"> <img src="assets/img/avatars/4.jpg" class="mw40" alt="avatar"> </a>
+                        <div class="media-body">
+                            <h5 class="media-heading mv5">Article
+                                <small class="text-muted">- 08/16/22</small>
+                            </h5> Last Updated 36 days ago by
+                            <a class="text-system" href="#"> Max </a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span class="flag-xs flag-us"></span> US
+                </a>
+                <ul class="dropdown-menu pv5 animated animated-short flipInX" role="menu">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="flag-xs flag-in mr10"></span> Hindu </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="flag-xs flag-tr mr10"></span> Turkish </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="flag-xs flag-es mr10"></span> Spanish </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-divider hidden-xs">
+                <i class="fa fa-circle"></i>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle fw600 p15" data-toggle="dropdown"> <img src="assets/img/avatars/1.jpg" alt="avatar" class="mw30 br64 mr15"> John.Smith
+                    <span class="caret caret-tp hidden-xs"></span>
+                </a>
+                <ul class="dropdown-menu list-group dropdown-persist w250" role="menu">
+                    <li class="dropdown-header clearfix">
+                        <div class="pull-left ml10">
+                            <select id="user-status">
+                                <optgroup label="Current Status:">
+                                    <option value="1-1">Away</option>
+                                    <option value="1-2">Offline</option>
+                                    <option value="1-3" selected="selected">Online</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="pull-right mr10">
+                            <select id="user-role">
+                                <optgroup label="Logged in As:">
+                                    <option value="1-1">Client</option>
+                                    <option value="1-2">Editor</option>
+                                    <option value="1-3" selected="selected">Admin</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="animated animated-short fadeInUp">
+                            <span class="fa fa-envelope"></span> Messages
+                            <span class="label label-warning">2</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="animated animated-short fadeInUp">
+                            <span class="fa fa-user"></span> Friends
+                            <span class="label label-warning">6</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="animated animated-short fadeInUp">
+                            <span class="fa fa-gear"></span> Account Settings </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="animated animated-short fadeInUp">
+                            <span class="fa fa-power-off"></span> Logout </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </header>
+    <!-- End: Header -->
+    <section id="content_wrapper" style="left: 0;margin-left: 0">
+
+        <!-- Start: Topbar -->
+        <header id="topbar">
+            <div class="topbar-left">
+                <ol class="breadcrumb">
+                    <li class="crumb-active">
+                        <a href="index.html">Dashboard</a>
+                    </li>
+                    <li class="crumb-icon">
+                        <a href="index.html">
+                            <span class="glyphicon glyphicon-home"></span>
+                        </a>
+                    </li>
+                    <li class="crumb-link">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="crumb-trail">Dashboard</li>
+                </ol>
+            </div>
+            <div class="topbar-right">
+                <div class="ib topbar-dropdown">
+                    <label for="topbar-multiple" class="control-label pr10 fs11 text-muted">Reporting Period</label>
+                    <select id="topbar-multiple" class="hidden">
+                        <optgroup label="Filter By:">
+                            <option value="1-1">Last 30 Days</option>
+                            <option value="1-2" selected="selected">Last 60 Days</option>
+                            <option value="1-3">Last Year</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="ml15 ib va-m" id="toggle_sidemenu_r">
+                    <a href="#" class="pl5">
+                        <i class="fa fa-sign-in fs22 text-primary"></i>
+                        <span class="badge badge-hero badge-danger">3</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- End: Topbar -->
+
+        <!-- Begin: Content -->
+        <section id="content" class="table-layout animated fadeIn">
+
+            <!-- begin: .tray-center -->
+            <div class="tray tray-center">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-visible" id="spy3">
+                            <div class="panel-heading">
+                                <div class="panel-title hidden-xs">
+                                    <span class="glyphicon glyphicon-tasks"></span>Inline Datatable Editing</div>
+                            </div>
+                            <div class="panel-body pn">
+                                <table id="example3" class="table fchild-checkbox" cellspacing="0" width="100%">
+                                    <thead>
+                                    <tr>
+                                        <th>username</th>
+                                        <th>password</th>
+                                        <th width="18%">tel</th>
+                                        <th width="20%">qrcodemessage</th>
+                                        <th>touxiang</th>
+                                        <th>editor</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end: .tray-center -->
+
+        </section>
+        <!-- End: Content -->
+
+    </section>
+
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="usernameMessage"></h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">password:</label>
+                        <input type="text" class="form-control" id="modal-password">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">tel:</label>
+                        <input type="text" class="form-control" id="modal-tel">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button id="modalclose" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End: Main -->
+
+<!-- BEGIN: PAGE SCRIPTS -->
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery-1.11.1.min.js"></script>
+<script src="vendor/jquery/jquery_ui/jquery-ui.min.js"></script>
+
+<!-- Datatables -->
+<script src="vendor/plugins/datatables/media/js/jquery.dataTables.js"></script>
+
+<!-- Datatables Tabletools addon -->
+<script src="vendor/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+
+<!-- Datatables Editor addon - READ LICENSING NOT MIT  -->
+<script src="vendor/plugins/datatables/extensions/Editor/js/dataTables.editor.js"></script>
+
+<!-- Datatables Bootstrap Modifications  -->
+<script src="vendor/plugins/datatables/media/js/dataTables.bootstrap.js"></script>
+<script src="vendor/plugins/datatables/extensions/Editor/js/editor.bootstrap.js"></script>
+
+<!-- Theme Javascript -->
+<script src="assets/js/utility/utility.js"></script>
+<script src="assets/js/demo/demo.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Xedit JS -->
+<script src="vendor/plugins/moment/moment.min.js"></script>
+<!-- Dependency -->
+<script src="vendor/plugins/xeditable/js/bootstrap-editable.min.js"></script>
+<script src="vendor/plugins/xeditable/inputs/address/address.js"></script>
+<script src="vendor/plugins/xeditable/inputs/typeaheadjs/lib/typeahead.js"></script>
+<script src="vendor/plugins/xeditable/inputs/typeaheadjs/typeaheadjs.js"></script>
+<script src="jquery.qrcode.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        "use strict";
+
+        // Init Theme Core
+        Core.init();
+
+        // Init Demo JS
+        Demo.init();
+    });
+    $.ajaxSetup({
+        async: false
+    });
+    var url = "http://localhost:2900/datebase";
+    var updateurl = "http://localhost:2900/updateusermessage";
+    $.getJSON(url,{},function (data) {
+        for(var i =0;i< data.length;i++){
+           var html = "<tr>";
+            html +="<td class='username'>"+data[i].username+ "</td>";
+            html +="<td class='password'>"+data[i].password+ "</td>";
+            html +="<td class='tel'>"+data[i].tel+ "</td>";
+            html +="<td>"+data[i].qrcodemessage+"</td>";
+            html +="<td>"+data[i].touxiang+ "</td>";
+            html +="<td class='editor'>"+"<button class='remove'>删除</button><br/><button class='change' style='margin-top: 10px'>修改</button>"+"</td>";
+            html +="</tr>";
+            $('tbody').append(html);
+        }
+    })
+    $('.change').click(function () {
+        $('#myModal').modal({
+            keyboard: false
+        })
+        var actiontd = $(this).parent().parent();
+        var username = $(this).parent().parent().find('.username').text();
+        var password = $(this).parent().parent().find('.password').text();
+        var tel = $(this).parent().parent().find('.tel').text();
+        $('#usernameMessage').text("chang"+"__"+username+"__"+"message");
+        $('#modal-password').val(password);
+        $('#modal-tel').val(tel);
+        $('#modalclose').click(function () {
+            var changedpassword = $('#modal-password').val();
+            var changedtel = $('#modal-tel').val()
+            console.log(changedtel);
+            actiontd.find('.password').text(changedpassword);
+            actiontd.find('.tel').text(changedtel);
+            $.getJSON(updateurl,{"username":username,"changedpassword":changedpassword,"changedtel":changedtel},function (data) {
+                console.log(data);
+            })
+        });
+    })
+</script>
+<!-- END: PAGE SCRIPTS -->
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.qrul{
+  padding: 0.5rem 0.3rem 1rem 0.3rem;
+  background-color:#eeeeee;
+  .qrli{
+    margin-bottom: 0.3rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    .myTicket{
+      border: 1px solid #ff2c43;
+      padding: 20px 25px;
+      .myTicketHeader{
+        margin-bottom: 0.2rem;
+      }
+      .myTicketHeader,.myTicketQrcode{
+        padding: 10px 15px;
+      }
+      .movieName,.movieTime,.site,.seat{
+        padding-bottom: 0.1rem;
+      }
+      .movieName{
+        font-size: 0.3rem;
+        font-weight: bold;
+      }
+      .seat{
+        border-bottom: 1px dashed #cccccc;
+      }
+    }
+  }
+}
+
