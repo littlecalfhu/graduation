@@ -30,7 +30,7 @@ Qrcode.propTypes = {
   router: React.PropTypes.object.isRequired
 }
 */
-let username = window.location.href.split("/")[3].split("=")[1].split("#")[0];
+//let username = window.location.href.split("/")[3].split("=")[1].split("#")[0];
 var query = {
   "username":username
 }
